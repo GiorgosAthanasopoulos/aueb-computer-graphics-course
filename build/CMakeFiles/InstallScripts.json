@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/george/git/aueb-computer-graphics-course/build/cmake_install.cmake",
-		"/home/george/git/aueb-computer-graphics-course/build/_deps/glm-build/cmake_install.cmake",
-		"/home/george/git/aueb-computer-graphics-course/build/_deps/glm-build/glm/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

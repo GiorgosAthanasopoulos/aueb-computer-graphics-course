@@ -1,3 +1,0 @@
-/home/george/git/aueb-computer-graphics-course/build/_deps/glm-subbuild/CMakeFiles/glm-populate.dir
-/home/george/git/aueb-computer-graphics-course/build/_deps/glm-subbuild/CMakeFiles/edit_cache.dir
-/home/george/git/aueb-computer-graphics-course/build/_deps/glm-subbuild/CMakeFiles/rebuild_cache.dir
