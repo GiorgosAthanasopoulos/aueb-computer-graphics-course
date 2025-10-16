@@ -1,0 +1,1 @@
+/usr/bin/g++ -Wl,--dependency-file=CMakeFiles/AuebComputerGraphicsCourse.dir/link.d CMakeFiles/AuebComputerGraphicsCourse.dir/src/main.cpp.o -o AuebComputerGraphicsCourse  libglad.a /usr/lib/libglfw.so.3.4 _deps/glm-build/glm/libglm.a libimgui.a -ldl -lGL

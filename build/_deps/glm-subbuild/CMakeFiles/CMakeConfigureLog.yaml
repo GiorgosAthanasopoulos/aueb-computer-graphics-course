@@ -1,0 +1,94 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/george/.npm-global/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/home/george/.spicetify/"
+      - "/home/george/.local/bin/"
+      - "/home/george/apps/go/bin/"
+      - "/home/george/.dotnet/"
+      - "/home/george/.dotnet/tools/"
+      - "/home/george/apps/zig/"
+      - "/home/george/Downloads/odin-linux-amd64-nightly+2025-08-05/"
+      - "/home/george/apps/c3/"
+      - "/home/george/.local/share/Steam/steamapps/common/Proton - Experimental/"
+      - "/home/george/Downloads/flutter/bin/"
+      - "/home/george/.pub-cache/bin/"
+      - "/home/george/apps/ghostty/zig-out/bin/"
+      - "/home/george/.atuin/bin/"
+      - "/home/george/lib/flutter/3.27.3/flutter/bin/"
+      - "/home/george/Downloads/jai/bin/"
+      - "/home/george/Downloads/go/bin/"
+      - "/home/george/Android/Sdk/platform-tools/"
+      - "/bin/"
+    searched_directories:
+      - "/home/george/.npm-global/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/george/.npm-global/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/george/.spicetify/"
+        - "/home/george/.local/bin"
+        - "/home/george/apps/go/bin"
+        - "/home/george/.spicetify"
+        - "/home/george/.npm-global/bin"
+        - "/home/george/.dotnet"
+        - "/home/george/.dotnet/tools"
+        - "/home/george/apps/zig"
+        - "/home/george/Downloads/odin-linux-amd64-nightly+2025-08-05/"
+        - "/home/george/apps/c3"
+        - "/home/george/.local/share/Steam/steamapps/common/Proton - Experimental"
+        - "/home/george/Downloads/flutter/bin"
+        - "/home/george/.pub-cache/bin"
+        - "/home/george/apps/ghostty/zig-out/bin"
+        - "/home/george/.atuin/bin"
+        - "/home/george/.local/bin"
+        - "/home/george/lib/flutter/3.27.3/flutter/bin"
+        - "/home/george/Downloads/jai/bin"
+        - "/home/george/Downloads/go/bin"
+        - "/home/george/Downloads/go/bin"
+        - "/home/george/Android/Sdk/platform-tools/"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.17.1-2-cachyos - x86_64
+...
